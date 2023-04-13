@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="YandexAuthTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-13T10:24:35" hostname="DESKTOP-G6BUB6B" time="17.751">
+  <properties/>
+  <testcase name="authPositive()" classname="YandexAuthTest" time="13.488"/>
+  <testcase name="logoutPositive()" classname="YandexAuthTest" time="4.262"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 2367
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+апр. 13, 2023 1:24:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 112, so returning the closest version found: 111
+]]></system-err>
+</testsuite>
