@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'org.Generalov'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'com.codeborne:selenide-appium:1.7.4'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testRuntimeOnly 'org.slf4j:slf4j-simple:1.7.32'
+}
+
+test {
+    useJUnitPlatform()
+}
