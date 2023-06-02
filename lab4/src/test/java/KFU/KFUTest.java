@@ -52,8 +52,8 @@ public class KFUTest {
     @Order(1)
     public void loginTest() {
         loginPage.clickLkButton();
-        loginPage.enterLogin("SemAShanin");
-        loginPage.enterPassword("llds6me7");
+        loginPage.enterLogin("hani");
+        loginPage.enterPassword("e7");
         loginPage.enterButtonClick();
         //отображается ли кнопка выхода на странице
         Assertions.assertFalse(statementsPage.exitButton.isDisplayed());
